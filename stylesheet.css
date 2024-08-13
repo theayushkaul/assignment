@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.greeting {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+#greetBtn {
+    border: 0;
+    height: 40px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: #0a2049;
+    color: white;
+    cursor: pointer;
+}
+
+#greetBtn:hover {
+    background-color: #102f67;
+}
+
+#nameInput {
+    width: 50vw;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 4px 10px;
+}
